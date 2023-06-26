@@ -1,0 +1,32 @@
+
+::-webkit-scrollbar
+{
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background:var(--uwu);
+    border-radius: 5px;
+}
+
+.container 
+{
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+:root
+{
+    --blue-light: #07A0FF;
+    --blue-soft:#C2E8FF;
+    --purple:#736EEF;
+    --orange-bright: rgb(244, 162, 29);
+    --gray :#646464;
+    --green-font: #2ECC71;
+    --red: #FF4E4E;
+    --black: #37352F;
+    --gold: #F7D060;
+    --purple-light: #E6D6FF;
+}

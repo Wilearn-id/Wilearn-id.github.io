@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./Assets/logo_willearn_svg.svg" type="image/icon type">
+    <link rel="stylesheet" href="./Style/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilearn</title>
+</head>
+<body>
+    <div class="main_interface">
+        <!-- Left main -->
+        <div class="left_main">
+            <div class="menu_container">
+                <div style="margin-top: 15px; margin-left: 15px;"><img src="./Assets/logo landscape.png" width="200px" height="60px"></div>
+                <a  href="index.html"><p class="menu_active">Home</p></a>
+                <a href="./schedule.html"><p>Schedule</p></a>
+                <a style="display: block;">
+                    <a style="display: flex;" class="menu_agenda">
+                      <p>Agenda</p>
+                      <img id="agenda_arrow" class="agenda_arrow" style="margin-left: 70px;margin-top: 12px;" src="./Assets/arrow_agenda.png" width="25px" height="25px">
+                    </a>
+                    <nav class="agenda_childs" id="agenda_childs">
+                    <li ><a href="./class.html">Group 1 Junior Class</a></li>
+                    <li ><a href="#">Intermediate Class </a></li>
+                    <li ><a href="#">Exclusive Class</a></li >
+                    <li ><a href="#"><img src="./Assets/icon_plus_menu.png">New Class</a></li >
+                    </nav>
+                </a>
+    
+                <a href="./profil.html" style="margin-top: 50px;"><p>Settings</p></a>
+                <a href="#" style="font-size: 15px;display: flex;margin-top: -15px;"><img src="./Assets/profile_pic.png" width="25px" height="25px"><p style="padding-left: 5px;">Logged as anonym</p></a>
+             </div>
+        </div>
+
+        <!-- Right main -->
+        <div class="right_main">
+          <div class="about_us_container">
+            <div class="title_about_us">Streamline Tutoring Tasks for Effortless Efficiency</div>
+            <!-- description image -->
+            <div class="about_us_description_image">
+              <div class="about_us_description_image_left">
+                <p>we're on a mission to revolutionize the way tutors and students connect and
+                   excel in their educational journey. 
+                </p>
+                <p>As a leading educational technology startup, we provide a 
+                  cutting-edge platform that simplifies scheduling and grading for tutors, 
+                  ensuring a seamless and efficient learning experience for all.</p>
+              </div>
+              <div class="about_us_description_image_right"><img src="./Assets/about_us_pic.png"></div>
+            </div>
+
+            <!-- Meet our Amazing team -->
+            <div class="amazing_team_container">
+              <div class="amazing_team_title">Meet Our Amazing Team!</div>
+              <div class="amazing_team_content">
+                <div class="amazing_team_row1">
+                  <div><img src="./Assets/person1.png"></div>
+                  <div>Innovative Education Technology.</div>
+                  <div><img src="./Assets/person2.png"></div>
+                </div>
+                <div class="amazing_team_row2">
+                  <div>Seamless Scheduling Solution.</div>
+                  <div><img src="./Assets/person3.png"></div>
+                  <div>Efficient Grading System.</div>
+                </div>
+                <div class="amazing_team_row3">
+                  <div><img src="./Assets/person4.png"></div>
+                  <div>Transforming tutoring experiences.</div>
+                  <div><img src="./Assets/person5.png"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- footer -->
+            <footer class="footer_container">
+              <div class="footer_title">Get in Touch</div>
+              <div class="footer_content_list">
+                <div class="footer_child_col1">
+                    <div><a href="./index.html"><img src="./Assets/logo landscape.png" height="45px"></a></div> 
+                    <div><a>Wilearn more Smarter and Faster</a></div>
+                    <div style="display: flex;">
+                      <a href="#" style="margin-right: 30px;"><img src="./Assets/ig_icon.png" width="40px" height="40px"></a>
+                      <a href="#" style="margin-right: 30px;"><img src="./Assets/wa_icon.png" width="40px" height="40px"></a>
+                      <a href="#" ><img src="./Assets/tiktok_icon.png" width="40px" height="40px"></a>
+                    </div>
+                </div>
+                <div class="footer_child_col2">
+                  <div class="title_footer_menu">Homepage</div>
+                  <div><a href="index.html">Summary Schedule</a></div>
+                  <div><a href="index.html">Date</a></div>
+                  <div><a href="index.html">My Student</a></div>
+                </div>
+
+                <div class="footer_child_col2">
+                  <div class="title_footer_menu">Schedule</div>
+                  <div><a href="schedule.html">Notes</a></div>
+                  <div><a href="schedule.html">Calendar</a></div>
+                  <div><a href="schedule.html">Detail Schedule</a></div>
+                </div>
+
+                <div class="footer_child_col2">
+                  <div class="title_footer_menu">Agenda</div>
+                  <div><a href="class.html">Absence</a></div>
+                  <div><a href="class.html">My Student</a></div>
+                  <div><a href="class.html">Meet Summary</a></div>
+                  <div><a href="class.html">Parent Report</a></div>
+                </div>
+                
+              </div>
+            </footer>
+          </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./Script/global.js"></script>  
+</body>
+</html>

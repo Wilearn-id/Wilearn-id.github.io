@@ -1,0 +1,132 @@
+.main_interface{
+    display: flex;
+}
+
+.left_main{
+    width: 18%;
+    margin-left: 5px;
+}
+
+.right_main{
+    width: 82%;
+    height: auto;
+
+}
+
+.menu_container{
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    position: sticky;
+    top: 25px;
+    border-radius: 30px;
+    margin: 25px 70px 15px 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);    
+}
+.menu_container a{
+    display: block;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: 400;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.menu_container div img{
+    width: 100%;
+    height: auto;
+    padding-right: 5%;
+}
+
+.menu_container a{
+    font-size: 1.8rem;
+}
+
+.menu_agenda{
+    font-size: 30px;
+    color: var(--gray);
+}
+
+.menu_agenda:hover{
+    cursor: pointer;
+    color: var(--blue-light);
+}
+
+
+.menu_container li
+{
+    list-style:disc;
+    color:var(--blue-soft);
+    margin-left: 30px;
+    margin-top: 3px;
+    width: 200px;
+}
+
+.menu_container li:last-child{
+    list-style: none;
+    margin-left: 24px;
+}
+
+.menu_container li:last-child a{
+    text-decoration: underline;
+    color: #939393;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.menu_container li:last-child a img{
+    margin-right: 16px;
+    height: 14px;
+    width: 14px;
+}
+
+.menu_container li a:hover{
+    cursor: pointer;
+    color: var(--gold);
+    transition: 0.4s;
+}
+
+.menu_container li:last-child a:hover{
+    color: var(--black);
+    transition: 0.4s;
+}
+
+
+.menu_active{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.menu_active:hover{
+    color: var(--blue-light);
+    cursor: pointer;
+}
+.agenda_arrow{
+    transform: rotate(180deg);
+}
+
+.agenda_arrow_active{
+    transform: rotate(0deg);
+    transition:0.8s;
+}
+
+.agenda_childs{
+    display: block;
+    opacity: 0;
+    transition: opacity 0.6s;
+    visibility: hidden;
+}
+
+.agenda_childs li a{
+    margin-top: -25px;
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.agenda_childs_active{
+    opacity: 1;
+    visibility: visible;
+}

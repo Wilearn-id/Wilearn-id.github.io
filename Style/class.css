@@ -1,0 +1,290 @@
+.class_content_container{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    margin: 50px 0 0 6%;
+}
+
+.title_class{
+    font-size: 30px;
+    font-weight: 700;
+}
+.title_class_container{
+    display: flex;
+}
+
+.title_class_container img{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.title_class_container img:hover{
+    cursor: pointer;
+}
+
+.total_students{
+    display: flex;
+    margin-top: -10px;
+}
+
+.total_students img{
+    width: 20px;
+    height: 20px;
+}
+
+.total_students_text{
+    margin-top: -2px;
+    margin-left: 5px;
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.class_description{
+    display: block;
+}
+
+.class_description_title{
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.class_description_content{
+    font-weight: 500;
+}
+
+.class_description_content textarea{
+    font-weight: 500;
+    width: 93%;
+    height: auto;
+    resize: none;
+    overflow-y: hidden;
+    border: none;
+}
+
+.saveButtonDescriptionEdit{
+    background-color: aqua;
+    padding: 2px 10px;
+    border-radius: 10px;
+    color: var(--black);
+    font-weight: 500;
+    border: transparent;
+}
+
+.saveButtonDescriptionEdit:hover{
+    transition: 0.4s ease;
+    color: var(--orange-bright);
+}
+
+.class_meeting{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.class_meeting_childs{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    background-color: var(--purple-light);
+    padding: 2px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:var(--black);
+    font-weight: 500;
+}
+
+.class_meeting_childs:hover{
+    color: var(--orange-bright);
+    transition: 0.4s ease-in;
+}
+
+.class_meeting a img{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.table_mystudents_class_container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.table_mystudents_class{
+    margin-top: 15px;
+}
+
+.table_mystudents_class_title_row{
+    background-color: var(--blue-soft); 
+}
+
+
+.table_mystudents_class {
+    font-weight: 400;
+    padding: 5px 0;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table_mystudents_class th,.table_mystudents_class td{
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+.table_mystudents_class_container table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3); /* this draws the table border  */ 
+}
+
+.table_mystudents_class_title_row th:first-child{
+    border-top-left-radius: 15px;
+}
+
+.table_mystudents_class_title_row th:last-child{
+    border-top-right-radius: 15px;
+}
+
+.table_mystudents_class td{
+    border-bottom: 1px solid black;
+    padding: 7px 0;
+}
+
+.plus_table_class{
+    margin: 10px 0 0 47%;
+}
+
+.plus_table_class img{
+    width: 30px;
+    height: 30px;
+}
+
+.plus_table_class img:hover{
+    cursor: pointer;
+}
+
+.class_edit_btn{
+    
+    background-color: transparent;
+    border: 1px solid var(--green-font);
+    border-radius: 10px;
+    padding: 1px 5px;
+    text-transform: capitalize;
+    color: var(--green-font);
+}
+
+.class_edit_btn:hover{
+    
+    background-color: var(--green-font);
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+}
+
+.class_del_btn{
+    background-color: transparent;
+    border: 1px solid var(--red);
+    border-radius: 10px;
+    padding: 1px 5px;
+    text-transform: capitalize;
+    color: var(--red);
+}
+
+.class_del_btn:hover{
+    background-color: var(--red);
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+}
+
+.table_class_meetings_container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3); /* this draws the table border  */ 
+}
+
+.table_class_meetings{
+    margin-top: 15px;
+    font-weight: 400;
+    padding: 5px 0;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    font-weight: 500;
+    text-align: center;
+}
+
+.table-body-meetings_title{
+    background-color: var(--blue-soft); 
+}
+
+.table_class_meetings th, .table_class_meetings td{
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+.table_class_meetings th:last-child{
+    border-right: none;
+}
+
+.table_class_meetings td:last-child{
+    border-right: none;
+}
+
+.table-body-meetings_title th:first-child{
+    border-top-left-radius: 15px;
+}
+
+.table-body-meetings_title th:last-child{
+    border-top-right-radius: 15px;
+}
+
+.table_class_meetings td{
+    border-bottom: none;
+    padding: 7px 0;
+}
+
+.table_class_meetings_col_students{
+    background-color: var(--blue-soft);
+    padding: 1px 2px;
+}
+
+.hadir{
+    color: var(--green-font);
+}
+
+.absent{
+    color: var(--red);
+}
+
+.sakit{
+    color: var(--blue-light);
+}
+
+.izin{
+    color: var(--gold);
+}
+
+.table_class_meetings td a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.table_class_meetings td a:hover{
+    transition: 0.3s ease-in;
+    color: var(--gold);
+}

@@ -1,0 +1,173 @@
+.about_us_container{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    margin: 50px 0 0 6%;
+}
+
+.title_about_us{
+    font-size: 32px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.about_us_description_image{
+    display: flex;
+    margin-top: 10px;
+}
+
+.about_us_description_image_left{
+    width: 50%;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.about_us_description_image_right{
+    width: 55%;
+}
+
+.about_us_description_image_right img{
+    margin-left: 110px;
+    width: 340px;
+}
+
+.amazing_team_container{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.amazing_team_title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.amazing_team_content{
+    width: 97%;
+    display: block;
+    height: auto;
+}
+
+.amazing_team_row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amazing_team_row1 div{
+    width: 100%;
+}
+
+.amazing_team_row1 div:nth-child(2){
+    color: var(--blue-light);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 70px;
+    text-shadow: 1px 1px var(--black);
+}
+.amazing_team_row1 div img{
+    width: 100%;
+}
+
+.amazing_team_row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amazing_team_row2 div{
+    width: 100%;
+}
+
+.amazing_team_row2 div:nth-child(1),.amazing_team_row2 div:nth-child(3){
+    color: var(--purple);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 70px;
+    text-shadow: 1px 1px var(--black);
+}
+
+.amazing_team_row2 div img{
+    width: 100%;
+}
+
+.amazing_team_row3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amazing_team_row3 div:nth-child(2){
+    color: var(--blue-light);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 50px;
+    margin-top: 70px;
+    text-shadow: 1px 1px var(--black);
+}
+
+.amazing_team_row3 div{
+    width: 100%;
+}
+.amazing_team_row3 div img{
+    width: 100%;
+}
+
+.footer_container{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer_title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer_content_list{
+    display: flex;
+}
+
+.footer_child_col1{
+    display: block;
+    width: 35%;
+    margin-right: 30px;
+}
+
+.footer_child_col1 div:first-child{
+    margin-bottom: 3px;
+}
+
+.footer_child_col1 div:nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer_child_col2{
+    display: block;
+    width: 20%;
+}
+
+.title_footer_menu{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 17px;
+    padding-top: 12px;
+}
+
+.footer_child_col2 div a{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.footer_child_col2 div a:hover{
+    color: var(--blue-light);
+    transition: 0.4s;
+}

@@ -1,0 +1,46 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("./rule.css");
+@import url("./global.css");
+@import url("./login.css");
+@import url("./regis.css");
+@import url("./profile.css");
+@import url("./history.css");
+@import url("./schedule.css");
+@import url("./homepage.css");
+@import url("./class.css");
+@import url("./class_child.css");
+@import url("./calendar.css");
+@import url("report.css");
+@import url("./about_us.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+html ::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb
+{
+    /* border: 1px solid;
+    border-color: black; */
+    background: linear-gradient(#dcdcdca7,#dcdcdca7);
+}
+
+html ::-webkit-scrollbar-track
+{
+    /* background: rgb(210, 210, 210); */
+    background-color: transparent;
+}

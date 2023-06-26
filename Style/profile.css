@@ -1,0 +1,99 @@
+.profile_content{
+    width: 90%;
+    height: 220px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    margin: 50px 0 0 6%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);  
+}
+.profile_personal_info{
+    margin-left: 20px;
+}
+.profile_title{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.image_profile{
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+.profile_personal_info{
+    display: flex;
+    
+}
+.profile_data{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.profile_data1{
+    display: block;
+}
+.profile_name{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;   
+}
+.profile_email{
+    margin-top: -20px;
+    text-decoration: underline;
+    font-weight: 500;   
+}
+
+.profile_data2{
+    display: block;
+}
+.profile_address{
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile_data3{
+    display: block;
+}
+.profile_delete{
+    color: var(--red);
+    font-weight: 500;
+}
+
+.profile_buttons{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+.profile_buttons a{
+    text-decoration: none;
+}
+
+.profile_btn_history{
+ color:var(--purple);
+ font-size: 30px;
+ font-weight: 400;
+}
+
+.profile_btn_aboutus{
+ color: var(--blue-light);
+ font-size: 30px;
+ font-weight: 400;
+}
+
+.profile_btn_logout{  
+ color: var(--red);
+ font-size: 30px;
+ font-weight: 400;    
+}
+
+.profile_btn_history:hover,.profile_btn_aboutus:hover,.profile_btn_logout:hover{
+    color: var(--gold); 
+    transition: 0.3s;
+}

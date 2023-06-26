@@ -1,0 +1,276 @@
+.child_class_content_container{
+    width: 90%;
+    height: 600px;
+    display: inline-block;
+    margin: 50px 0 0 6%;    
+}
+
+.back_button_child_class{
+    display: flex;
+    width: min-content;
+    height: 20px;
+    text-decoration: none;
+}
+
+.back_button_child_class img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.back_button_child_class p{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.back_button_child_class p:hover{
+    transition: 0.4s ease;
+    color: var(--orange-bright);
+}
+
+.class_child_title{
+    display: block;
+}
+
+.class_child_title_meeting{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--black);
+    margin-top: 20px;
+}
+.class_child_title_course{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--black);
+    margin-top: -20px;
+    
+}
+
+.class_child_mini_calendar{
+    display: flex;
+}
+
+.class_child_mini_calendar img{
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.class_child_mini_calendar p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.class_child_absence_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.class_child_absence_left{
+    width: 55%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.class_child_absence_right{
+    width: 45%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.class_child_absence_left_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.class_child_absence_table_container{
+    width: 100%;
+    height: auto;
+    margin: -5px 0 10px 0;
+}
+
+.table_absence_class_child{
+    border-collapse: collapse;
+}
+
+.table_absence_class_child th{
+    border-top: 1px solid var(--gray);
+    border-bottom: 2px solid var(--gray) ;  
+    text-align: center;
+}
+
+
+.table_absence_class_child td{
+    border-bottom: 2px solid var(--gray) ;  
+    text-align: center;
+    padding: 1.5px 0;
+}
+.table_absence_class_child tr:last-child td{
+    border-bottom: 1px solid var(--gray) ;  
+    text-align: center;
+}
+
+.table_absence_class_child td select option img{
+    width: 20px;
+    height: 20px;
+}
+.table_absence_class_child select option:first-child{
+    color: white;
+    font-weight: 500;
+    background-color: var(--green-font);
+}
+.table_absence_class_child select option:nth-child(2){
+    color: white;
+    font-weight: 500;
+    background-color: var(--blue-light);
+}
+.table_absence_class_child select option:nth-child(3){
+    color: white;
+    font-weight: 500;
+    background-color: var(--red);
+}
+.table_absence_class_child select option:last-child{
+    color: white;
+    font-weight: 500;
+    background-color: var(--gold);
+}
+
+.table_absence_class_child select{
+    color: white;
+}
+
+.option_attendance{
+    background-color: var(--green-font);
+    color: white;
+    font-weight: 500;
+}
+
+.class_child_list_meet_task{
+    display: block;
+    font-size:  18px;
+    width: 95%;
+    font-weight: 500;
+}
+
+.class_child_list_meet_task a{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--black);
+    background-color: var(--purple-light);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+}
+
+.class_child_list_meet_task .test1{
+  flex-grow: 1;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.class_child_list_meet_task .test1:hover{
+    cursor: pointer;
+    color: var(--blue-light);
+}
+    
+.class_child_list_meet_task p{
+    margin-bottom: 10px;
+}
+
+.class_child_list_meet_task img {
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  } 
+.child_class_table_score_container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+.table_score_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.table_score_content{
+    text-align: center; 
+}
+
+.table_score_content th{
+  border-right: 1px;
+  border-style: solid;
+  border-color: var(--gray);
+  border-collapse: collapse;
+  padding: 1px 0;
+}
+
+.table_score_content th:last-child{
+    border-right: none;
+}
+
+.table_score_content td{
+  font-weight: 400;
+  padding: 3px 0;
+  border-right: 1px;
+  border-top: 1px;
+  border-style: solid;
+  border-color: var(--gray);
+  border-collapse: collapse;
+}
+
+.table_score_content td:last-child{
+    border-right: none;
+}
+
+.table_score_title_row{
+    background-color: var(--purple-light);
+}
+
+.table_score_content tr:first-child th:first-child{
+    border-radius: 12px 0 0 0;
+}
+.table_score_content tr:first-child th:last-child{
+    border-radius: 0 12px 0 0;
+}
+
+.table_score_content tr:first-child th{
+    padding: 5px 0;
+}
+
+.table_score_content tr{
+    border-bottom: 1px solid var(--gray);
+}
+.saveButtonClassChild{
+    margin-left: 150px;
+    margin-top: 8px;
+    background-color: transparent;
+    border: 2px solid aqua;
+    padding: 1px 10px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.saveButtonClassChild:hover{
+    color: var(--green-font);
+}
+
+.class_child_title .class_child_title_course img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.class_child_title .class_child_title_course img:hover{
+    cursor: pointer;
+}

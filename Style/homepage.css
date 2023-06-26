@@ -1,0 +1,218 @@
+.homepage_main_content{
+    display: inline-block;
+    width: 100%;
+    height: auto    ;
+}
+
+.schedule_homepage_container{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    margin: 50px 0 0 6%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.schedule_homepage_title{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 10px 0 0 15px;
+}
+
+.schedule_homepage_table_container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.table_schedule_homepage{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.table_schedule_homepage_title_row
+{
+    text-align: center;
+    background-color: var(--blue-soft);
+}
+
+.table_schedule_homepage td{
+  font-weight: 400;
+  padding: 10px 0;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table_schedule_homepage td:last-child{
+    border-right: none;
+  }
+
+.date_homepage_container{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    margin: 20px 0 10px 6%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.date_homepage_left_right{
+    display: flex;  
+    height: 480px;
+}
+
+.date_homepage_left
+{
+    width: 100%;
+    height: 100%;
+}
+
+.date_homepage_right
+{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Calendar */
+/* .schedule_homepage_calendar{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.wrapper_homepage{
+    width: 320px;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+  }
+.wrapper_homepage .date_year{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    justify-content: space-between;
+}
+
+.wrapper_homepage .current-date{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.wrapper_homepage .calendar{
+    background-color: var(--blue-soft);
+    padding: 2px;
+    border-radius: 0 0 20px 20px;
+    transition: 0.4s;
+}
+
+.wrapper_homepage .weeks{
+    margin-left: -35px;
+}
+
+.wrapper_homepage .days{
+    margin-bottom: 10px;
+    margin-left: -35px;
+    
+} */
+
+/* notes homepage */
+.notes_homepage_container{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 15px 0 0 6%;
+}
+
+.notes_homepage_title{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.notes_homepage_childs{
+    display: block;
+}
+
+.notes_homepage_childs li:first-child{
+    margin-top: -10px;
+}
+
+.notes_homepage_childs li{
+    list-style:disc;
+    color:var(--blue-soft);
+}
+.notes_homepage_childs li span{
+    text-align: left;
+    color:var(--black);
+    font-weight: 400;
+}
+
+.mystudents_homepage_container{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 15px;
+    margin: 20px 0 20px 6%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mystudents_homepage_title{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 10px 0 0 15px;
+}
+
+.table_mystudents_homepage_container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.table_mystudents_homepage{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.table_mystudents_homepage_title_row{
+    text-align: center;
+    background-color: var(--blue-soft);
+    
+}
+
+.table_mystudents_homepage_title_row th{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+.table_mystudents_homepage_title_row th:last-child{
+    border-right: none;
+}
+
+.table_mystudents_homepage td{
+    font-weight: 400;
+    padding: 5px 0;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table_mystudents_homepage td:last-child{
+    border-right: none;
+}
+
